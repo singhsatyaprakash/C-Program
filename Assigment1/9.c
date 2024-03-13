@@ -1,0 +1,1 @@
+/*Design a UDF StrConcate that joins two strings separated by a space and returns the concatenated string to the calling program. Implement a C program to read the two strings and display the modified string in the calling program.*/

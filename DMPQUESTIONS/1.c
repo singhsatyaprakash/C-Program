@@ -1,0 +1,25 @@
+/*Develop a C program to accept elements of array of sixe m*n and display the two dimensional- array.
+Name-Satya Prakash Singh
+Roll No-60
+Section-B1
+Course-B.Tech
+Branch:C.S.E
+*/
+#include<stdio.h>
+int main(){
+    int m,n;
+    printf("Enter row and column of matrix:");
+    scanf("%d%d",&m,&n);
+    int arr[m][n];
+    for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++){
+            scanf("%d",&arr[i][j]);
+        }
+    }
+        for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++){
+            printf("%d",arr[i][j]);
+        }
+    }
+    return 0;
+}
