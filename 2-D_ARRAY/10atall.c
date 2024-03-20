@@ -29,7 +29,7 @@ void main()
     scanf("%d",&c);
     int arr[r][c];
     int a;
-    printf("Enter you to at all indices: ");
+    printf("Enter num you want to put at all indices: ");
     scanf("%d",&a);
             for(int i=0;i<r;i++)
     {

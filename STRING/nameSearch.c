@@ -38,6 +38,9 @@ int main() {
             printf("%s name found\n", sname);
             break;
         }
+        else
+        printf("Name not found.");
+    break;
     }
 
     return 0;
