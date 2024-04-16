@@ -78,6 +78,18 @@
 //     printf("\n%s",str2);
 //     return 0;
 // }
+// #include<stdio.h>
+// void main(){
+//     char str1[]="Hello";
+//     char str2[]="Hello";
+//     // if(str1==str2){
+//     //     printf("Equal");
+//     // }
+//     // else
+//     // printf("unequal");
+//     printf("%d",str1);
+//     printf("\n%d",str2);
+// }
 
 //  #include<stdio.h>
 //  int main(){
