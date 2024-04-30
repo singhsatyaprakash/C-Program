@@ -19,11 +19,11 @@ void lessbalance(cust c[],int n){
     }
 }
 void incrementbalance(cust c[],int n){
-    printf("Customers you got increment:\n");
+    printf("Customers who got increment:\n");
+    printf("Name\tBalance\n");
     for(int i=0;i<n;i++){
         if(c[i].balance>1000){
             c[i].balance+=100;
-            printf("Name\tBalance\n");
             printf("%s\t$%.2f\n",c[i].name,c[i].balance);
         }
     }
