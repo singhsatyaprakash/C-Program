@@ -100,3 +100,22 @@
 //     printf("\n%s",s2);
 //     return 0;
 //  }
+
+//  #include<stdio.h>
+//  int main(){
+//     char str[]="Mindful";
+//     printf("%c",str[3]-3);
+//     return 0;
+//  
+ #include<stdio.h>
+ int main(){
+    int x[]={10,15,20,25,30};
+    int i,*p=x;
+    for(i=0;i<4;i++){
+        *p=*p+5;
+        p=p+1;
+        // p=20;
+        printf("%d",x[i]);
+    }
+    return 0;
+ }

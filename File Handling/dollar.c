@@ -17,7 +17,8 @@ int main() {
         fp = fopen("abc.txt", "r+");
 
 while ((ch = fgetc(fp)) != EOF) {
-    if (isspace(ch) != 0) {
+    // if (isspace(ch) != 0) {
+    if(ch==' '){
         fseek(fp, -1L, SEEK_CUR); // Move back one position
         fputc('$', fp);           // Replace space with '$'
         fseek(fp, 0L, SEEK_CUR);  // Move forward one position
